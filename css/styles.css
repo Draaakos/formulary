@@ -1,4 +1,4 @@
-* {	
+/* * {	
 	border:0;
 	margin:0;
 	padding:0;
@@ -33,7 +33,7 @@ input[type="button"] {
 	padding:.5em;
 }
 
-/*seudoclase hover*/
+
 input[type="button"]:hover {
 	background:skyblue;
 	border: thin solid #F60;
@@ -81,4 +81,31 @@ legend {
 
 :focus {	box-shadow:.1em .1em .5em rgba(255,102,0,.5);
 	outline: thin solid #F60;
+} */
+
+.content__formulary {
+	border: 1px solid #333;
+	border-radius: 5px;
+	width: 80%;	
+	margin: 0px auto;
+	color: #333;
+}
+
+.horizontal__block {
+	box-sizing: border-box;
+	margin-bottom: 1em;
+	border: 1px solid #eaeaea;
+	overflow: hidden;	
+}
+
+.horizontal__block-buttons {
+	text-align: center;
+}
+
+.horizontal__block-item {
+	width: 100%;
+}
+
+input {
+	border: none;
 }

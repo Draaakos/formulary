@@ -50,3 +50,7 @@ window.onload = () => {
 	botonLimpiar = document.getElementById("limpiar");
 	botonLimpiar.onclick = limpiarform;
 }
+
+function selectElement(e) {
+ console.log('selected', e);
+}
